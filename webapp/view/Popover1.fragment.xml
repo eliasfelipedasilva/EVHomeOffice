@@ -1,0 +1,12 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" controllerName="com.sap.build.standard.vai.controller.Popover1" xmlns="sap.m">
+    <ResponsivePopover contentHeight="350px" contentWidth="250px" horizontalScrolling="true" modal="false" offsetX="0" offsetY="0" placement="Right" showHeader="true" title="Trabalho em Equipe" verticalScrolling="true" visible="true" showCloseButton="true">
+        <content>
+            <Image src="/webapp/resources/engajamento.png" height="191.9965362548828px" width="262.9340515136719px" visible="true" densityAware="false"/>
+            <FormattedText htmlText="&lt;p style=&quot;text-align: justify;&quot;>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius vulputate nibh, ut pellentesque purus blandit sit amet. Pellentesque risus nibh, mollis id commodo at, placerat quis ipsum. Quisque sit amet ornare urna. In molestie sagittis nisl sit amet bibendum. Ut imperdiet ex blandit odio vehicula, quis lacinia lorem pulvinar. Etiam iaculis nulla vel molestie scelerisque. Aliquam malesuada ullamcorper laoreet.&amp;nbsp;&lt;/p>" width="auto" visible="true"/>
+        </content>
+        <beginButton/>
+        <customHeader/>
+        <endButton/>
+        <subHeader/>
+    </ResponsivePopover>
+</core:FragmentDefinition>

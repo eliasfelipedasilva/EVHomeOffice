@@ -1,0 +1,87 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.f" xmlns:layout="sap.ui.commons.layout" controllerName="com.sap.build.standard.vai.controller.Page1">
+    <Page showHeader="false" title="Page Title" showFooter="false" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="99px" top="116px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;h3&gt;Ol&amp;aacute;, &lt;/h3&gt;" width="43px" visible="true" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/banner_1_.jpg" height="83.2421875px" width="320px" visible="true" densityAware="false" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="15px" top="97px">
+                    <layout:control>
+                        <Image src="https://ui5.sap.com/resources/sap/ui/documentation/sdk/images/logo_ui5.png" width="70px" height="77px" id="image4"/>
+                    </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="68px" top="384px">
+                        <layout:control>
+                            <Image src="/webapp/resources/qualidadeEntrega.png" height="43.984375px" width="43.22265625px" visible="true" densityAware="false" class="sapUiResponsiveMargin" press="_onImagePress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="137px" top="385px">
+                        <layout:control>
+                            <Image src="/webapp/resources/efetivo.png" height="40.99609375px" width="42.4609375px" visible="true" densityAware="false" class="sapUiResponsiveMargin" press="_onImagePress1"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="68px" top="479px">
+                        <layout:control>
+                            <ToggleButton xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" pressed="true" text="Clique aqui para Começar" iconFirst="true" width="200px" enabled="true" visible="true" class="sapUiResponsiveMargin" press="_onToggleButtonPress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="205px" top="385px">
+                        <layout:control>
+                            <Image src="/webapp/resources/engajamento.png" height="45px" width="59.2578125px" visible="true" densityAware="false" class="sapUiResponsiveMargin" press="_onImagePress2"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="242px">
+                        <layout:control>
+                            <Label text="Bem-vindo à Avaliação do modelo" design="Bold" width="316.9921875px" required="false" textAlign="Center" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="3px" top="263px">
+                        <layout:control>
+                            <Label text="Home Office - Q1/2020" design="Bold" width="317.01171875px" required="false" textAlign="Center" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="4px" top="343px">
+                        <layout:control>
+                            <Label text="Para conhecer melhor os critérios avaliados" design="Standard" width="313px" required="false" textAlign="Center" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="360px">
+                        <layout:control>
+                            <Label text="selecione os ícones abaixo:" design="Standard" width="298.984375px" required="false" textAlign="Center" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="11px" top="175px">
+                        <layout:control>
+                            <FormattedText htmlText="" width="auto" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="152px" top="119px">
+                        <layout:control>
+                            <Label design="Standard" width="200px" required="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin" text="{firstName} {lastName}"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

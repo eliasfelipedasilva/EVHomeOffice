@@ -1,0 +1,26 @@
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema Namespace="06421d4cc73747e712d22235" xml:lang="en" sap:schema-version="0000" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+            <EntityContainer Name="06421d4cc73747e712d22235_Entities" m:IsDefaultEntityContainer="true">
+                <EntitySet Name="cust_EVHomeOffice" EntityType="06421d4cc73747e712d22235.cust_EVHomeOffice" sap:creatable="true" sap:updatable="true" sap:deletable="true"/>
+            </EntityContainer>
+            <EntityType Name="cust_EVHomeOffice">
+                <Key>
+                    <PropertyRef Name="externalCode"/>
+                </Key>
+                <Property Name="externalCode" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" MaxLength="100" sap:label="externalCode"/>
+                <Property Name="createdBy" Type="Edm.String" sap:creatable="false" sap:updatable="false" sap:deletable="false" MaxLength="100" sap:label="mdfSystemCreatedBy"/>
+                <Property Name="createdDateTime" Type="Edm.DateTimeOffset" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:label="mdfSystemCreatedDate"/>
+                <Property Name="cust_lastName" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" MaxLength="255" sap:label="lastName"/>
+                <Property Name="cust_name" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" MaxLength="255" sap:label="firstName"/>
+                <Property Name="cust_resposta1" Type="Edm.Int32" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="Resposta2"/>
+                <Property Name="cust_resposta2" Type="Edm.Int32" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="Questao3"/>
+                <Property Name="cust_resposta3" Type="Edm.Int32" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="Resposta3"/>
+                <Property Name="externalName" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" MaxLength="128" sap:label="externalName"/>
+                <Property Name="lastModifiedBy" Type="Edm.String" sap:creatable="false" sap:updatable="false" sap:deletable="false" MaxLength="100" sap:label="mdfSystemLastModifiedBy"/>
+                <Property Name="lastModifiedDateTime" Type="Edm.DateTimeOffset" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:label="mdfSystemLastModifiedDate"/>
+                <Property Name="mdfSystemRecordStatus" Type="Edm.String" sap:creatable="false" sap:updatable="false" sap:deletable="false" MaxLength="255" sap:label="mdfSystemRecordStatus"/>
+            </EntityType>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

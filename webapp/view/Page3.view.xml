@@ -1,0 +1,87 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.f" xmlns:layout="sap.ui.commons.layout" controllerName="com.sap.build.standard.vai.controller.Page3">
+    <Page showHeader="false" title="Page Title" showFooter="false" showNavButton="false" enableScrolling="false" navButtonPress="_onPageNavButtonPress">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="95px" top="113px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;h3&gt;Avaliação  Home Office&lt;/h3&gt;" width="217px" visible="true" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/banner_1_.jpg" height="83.2421875px" width="320px" visible="true" densityAware="false" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="15px" top="97px">
+                    <layout:control>
+                        <Image src="https://ui5.sap.com/resources/sap/ui/documentation/sdk/images/logo_ui5.png" width="70px" height="77px" id="image4"/>
+                    </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="38px" top="333px">
+                        <layout:control>
+                            <Slider min="0" max="100" value="0" step="5" enabled="true" visible="true" id="slider1" width="236px" progress="true" class="sapUiResponsiveMargin" liveChange="_onChangeSlider"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="67px" top="500px">
+                        <layout:control>
+                            <Image src="/webapp/resources/qualidadeEntrega.png" height="29px" width="28.5px" visible="true" densityAware="false" class="sapUiResponsiveMargin" press="_onImagePress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="130px" top="484px">
+                        <layout:control>
+                            <Image src="/webapp/resources/efetivo.png" height="59px" width="61.0625px" visible="true" densityAware="false" class="sapUiResponsiveMargin" press="_onImagePress1"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="223px" top="504px">
+                        <layout:control>
+                            <Image src="/webapp/resources/engajamento.png" height="30.99609375px" width="40.8203125px" visible="true" densityAware="false" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="62px" top="405px">
+                        <layout:control>
+                            <ToggleButton pressed="true" text="Seguir para Terceira Etapa" iconFirst="true" width="200px" enabled="true" visible="true" class="sapUiResponsiveMargin" press="_onToggleButtonPress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="242px">
+                        <layout:control>
+                            <Label text="" design="Bold" width="316.9921875px" required="false" textAlign="Center" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="11px" top="175px">
+                        <layout:control>
+                            <FormattedText htmlText="" width="auto" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="21px" top="216px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;h3 style=&quot;text-align: justify;&quot;&gt;Como você avalia a qualidade de suas entregas?&lt;/h3&gt;" width="270.99609375px" visible="true" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="22px" top="338px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;p&gt;&lt;strong&gt;0&lt;/strong&gt;&lt;/p&gt;" width="auto" height="55.00000000px" visible="true" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="275px" top="336px">
+                        <layout:control>
+                            <Label Text="&lt;p&gt;&lt;strong&gt;100&lt;/strong&gt;&lt;/p&gt;" id="test" width="37px" visible="true" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

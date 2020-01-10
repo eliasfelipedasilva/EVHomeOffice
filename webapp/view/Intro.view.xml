@@ -1,0 +1,48 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:statusindicator="sap.suite.ui.commons.statusindicator" xmlns:layout="sap.ui.commons.layout" controllerName="com.sap.build.standard.vai.controller.Intro"><Page showHeader="false" title="Page Title" showFooter="false" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/banner_1_.jpg" height="83.2421875px" width="320px" visible="true" densityAware="false" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="59px" top="478px">
+                        <layout:control>
+                            <ToggleButton pressed="true" text="Entrar" iconFirst="true" width="200px" enabled="true" visible="true" class="sapUiResponsiveMargin" press="_onToggleButtonPress" icon="sap-icon://database"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="11px" top="175px">
+                        <layout:control>
+                            <FormattedText htmlText="" width="auto" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="70px" top="484px">
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="9px" top="158px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Avalia&amp;ccedil;&amp;atilde;o Modelo Home Office&lt;/strong&gt;&lt;/h3&gt;" width="301px" visible="true" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="45px" top="313px">
+                        <layout:control>
+                            <Input type="Text" showValueHelp="false" enabled="true" visible="true" width="250px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0" id="input" placeholder="Digite seu externalCode"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>
